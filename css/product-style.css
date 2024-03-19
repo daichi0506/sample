@@ -1,0 +1,355 @@
+@charset "utf-8";
+
+/* 
+font-family: 'DM Sans', sans-serif;
+font-family: 'M PLUS Code Latin', monospace;
+font-family: 'Noto Sans JP', sans-serif; 
+*/
+
+/* ----------------------------------- */
+/* 製品群一覧 */
+/* ----------------------------------- */
+
+/* div.background を利用 */
+/* 左側にパディングを入れる */
+div.background {
+    width: 10.67%;
+    position: relative;
+    z-index: 5;
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 54px 0;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 28px;
+    height: 57px;
+    background-color: #EFEFEF;
+}
+
+h2 img {
+    width: auto;
+    height: 4px;
+    margin-left: 17.25px;
+    margin-right: 29.43px;
+}
+
+h3 {
+    font-family: DM Sans;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+    /* text-align: center; */
+    color: #BC0000;
+}
+
+/* ----------------------------------- */
+/* 製品群一覧：？？？？？？ */
+/* ----------------------------------- */
+
+section.product-part {
+    display: flex;
+    padding-bottom: 280px;
+}
+
+/* 製品群一覧：全体 */
+div.product-list {
+    background-color: #fff;
+    position: relative;
+    z-index: 7;
+    flex-basis: 89.33%;
+    /* padding: 80px 18.42% 0 5.26%; */
+    padding: 80px 13.15% 0 0;
+    /* margin-top: -94px; */
+}
+
+/* 触媒、化成によるタブ */
+div.product-tab {
+    display: flex;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 0 54px;
+}
+
+/* タブそれぞれの設定 */
+div.product-tab>button {
+    width: 50%;
+    color: #707070;
+    padding-bottom: 34px;
+    border: none;
+    border-bottom: 7px solid #707070;
+    background: none;
+}
+
+/* 選択されているタブ */
+div.product-tab>button.product-selected {
+    color: #bc0000;
+    border-bottom: 7px solid #bc0000;
+}
+
+/* 選択名：プルダウンメニュー */
+div.product-search {
+    margin: 0 0 54px;
+}
+
+div.product-search select {
+    color: #e4e4e4;
+    width: 45.94%;
+    height: 58px;
+    margin: 50px 0 77px;
+}
+
+div.product-search option {
+    color: #333;
+}
+
+div.product-item-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+    gap: 5.76%;
+}
+
+.product-item-list:not(.product-selected) {
+    display: none;
+}
+
+/* 画像 */
+div.product-item-list>a {
+    margin: 58px 0 80px 0;
+}
+
+div.product-item {
+    width: 400px;
+}
+
+
+div.product-item>img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20.59px;
+}
+
+/* 紹介 */
+div.product-item-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.product-item-title p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #000;
+}
+
+/* ----------------------------------- */
+/* 製品詳細 */
+/* ----------------------------------- */
+
+.product-detail-context p {
+    line-height: 29px;
+}
+
+.product-detail-function-tag,
+.product-detail-purpose-tag,
+.product-detail-basic-text {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+
+.product-detail-specific-editor {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+
+.product-detail-specific-editor img {
+    width: 550px;
+    height: auto;
+}
+
+.contact-heading {
+    margin-bottom: 37px;
+}
+
+.contact-heading p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.contact-context {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 67px;
+    /* text-align: center; */
+    margin-bottom: 37px;
+}
+
+.contact-tel {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-bottom: 37px;
+}
+
+.contact-article-link {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+
+    width: 355px;
+    height: 84px;
+    border: 2px solid #333;
+    border-radius: 42px;
+    color: #333;
+}
+.contact-button p {
+    margin-left: 25px;
+}
+.contact-button img {
+    margin-right: 25px;
+}
+
+
+@media screen and (max-width: 599px) {
+
+    /* ----------------------------------- */
+    /* 製品群一覧 */
+    /* ----------------------------------- */
+
+    /* div.background を利用 */
+    /* 左側にパディングを入れる */
+    div.background {
+        width: 10.67%;
+        position: relative;
+        z-index: 5;
+    }
+
+
+    /* ----------------------------------- */
+    /* 製品群一覧：？？？？？？ */
+    /* ----------------------------------- */
+
+    body.product {
+        background: linear-gradient(180deg, #2F3033 0%, #635E5C 100%);
+    }
+
+    section.product-part {
+        display: flex;
+        padding-bottom: 280px;
+    }
+
+    /* 製品群一覧：全体 */
+    div.product-list {
+        background-color: #fff;
+        position: relative;
+        z-index: 7;
+        flex-basis: 89.33%;
+        /* padding: 80px 18.42% 0 5.26%; */
+        padding: 80px 13.15% 0 0;
+        /* margin-top: -94px; */
+    }
+
+    /* 触媒、化成によるタブ */
+    div.product-tab {
+        display: flex;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 40px;
+        text-align: center;
+        margin: 0 0 54px;
+    }
+
+    /* タブそれぞれの設定 */
+    div.product-tab>button {
+        width: 50%;
+        color: #707070;
+        padding-bottom: 34px;
+        border: none;
+        border-bottom: 7px solid #707070;
+        background: none;
+    }
+
+    /* 選択されているタブ */
+    div.product-tab>button.product-selected {
+        color: #bc0000;
+        border-bottom: 7px solid #bc0000;
+    }
+
+    /* 選択名：プルダウンメニュー */
+    div.product-search {
+        margin: 0 0 54px;
+    }
+
+    div.product-search select {
+        color: #e4e4e4;
+        width: 100%;
+        height: 58px;
+        margin: 20px 0 30px;
+    }
+
+    div.product-search option {
+        color: #333;
+    }
+
+    div.product-item-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-bottom: 50px;
+    }
+
+    /* 画像 */
+    div.product-item-list>a {
+        margin: 10px 0 30px 0;
+    }
+
+    div.product-item {
+        max-width: 400px;
+    }
+
+
+    div.product-item>img {
+        width: 100%;
+        height: 223px;
+        margin-bottom: 20.59px;
+    }
+
+    /* 紹介 */
+    div.product-item-title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    div.product-item-title p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+}

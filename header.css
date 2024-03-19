@@ -1,0 +1,13 @@
+.header-links.active {
+    background-color: #333;
+    z-index: 10000;
+}
+
+@media (max-width: 769px) {
+    .header-links::before {
+        content: url("./img/Top-RedRectangle-sp.svg");
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}

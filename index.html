@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ファイン</title>
+    <!-- HTMLの設定のリセット -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <!-- common.css ヘッダー、フッター -->
+    <link rel="stylesheet" href="./common.css" />
+    <!-- background.css 背景 -->
+    <link rel="stylesheet" href="./css/background.css" />
+    <!-- bread パンくずリスト -->
+    <link rel="stylesheet" href="./css/breadcumb.css" />
+    <!-- トップページ以外の記事の設定 -->
+    <link rel="stylesheet" href="./css/otherpages.css" />
+    <!-- ニュースページ -->
+    <link rel="stylesheet" href="./css/business-style.css" />
+    <link rel="stylesheet" href="header.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <!-- Noto Sans JP 400, 500, 700 -->
+    <!-- DM Sans opt 400, 700 -->
+    <!-- M plus code latin 600 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=M+PLUS+Code+Latin:wght@600&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="other">
+    <img
+      class="other-red-curve"
+      src="./img/header/image-header-curve.png"
+      alt=""
+    />
+
+    <!-- ヘッダー -->
+    <header id="js-header">
+      <div class="opacity-cover">
+        <div class="header-links">
+          <div class="logo-container">
+            <img class="logo-nikki" src="./img/logo-nikki.png" alt="日揮触媒化成"/>
+          </div>
+          <nav class="header-navigation" id="js-nav">
+            <div>
+              <ul class="header-navigation-contact">
+                <li>
+                  <a href=""><img src="./img/Icon-feather-mail.png" alt=""/>お問い合わせ</a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="./img/Icon-feather-globe.png" alt="" />English</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul class="header-navigation-list">
+                <li><a href="">製品</a></li>
+                <li><a href="">共同開発</a></li>
+                <li><a href="">基礎技術</a></li>
+                <li><a href="">４つの事業と展望</a></li>
+                <li><a href="">採用</a></li>
+                <li><a href="">サステナビリティ</a></li>
+                <li>
+                  <a href="">
+                    <img
+                      src="./img/Icon-search-white.svg"
+                      alt=""
+                      class="header-navigation-list-search-pc"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <button class="header-hamburger hamburger" id="js-hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- パンくずリスト：breadcumb.cssより -->
+        <section class="breadcumb">
+          <div class="breadcumb-list">
+            <div class="breadcumb-item">
+              <div><a href="">Top</a></div>
+              <div>
+                <img src="./img/header/image-breadcumb-arrow.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- トップページ以外の骨組み設定：otherpages.css -->
+        <section class="other-section">
+          <!-- ページタイトル -->
+          <section class="page-title">
+            <p class="page-title-text">ファイン</p>
+          </section>
+          <div class="other-part">
+            <!-- div.background：PCでは左側を開けるために使われる -->
+            <div class="background"></div>
+
+            <!-- product-detail-part：記事ページ部分 -->
+            <div class="business-part">
+              <div class="business-whitepart">
+                <article class="business-article-section">
+                  <!-- ABOUT -->
+                  <section class="business-section">
+                    <div class="business-heading left">
+                      <h3>ABOUT</h3>
+                    </div>
+
+                    
+                  </section>
+                </article>
+              </div>  
+            </div>
+          </section>
+        </article>
+    </main>
+
+    <!-- フッター -->
+    <footer>
+      <div class="footer-information">
+        <img src="./img/logo-nikki.png" alt="日揮触媒化成"/>
+        <p>
+          〒212-0013 <br />
+          神奈川県川崎市幸区堀川町580番地 <br />
+          ソリッドスクエア東館16階
+        </p>
+        <p class="footer-information-copyright">
+          <small>© JGC C&C. All rights reserved.</small>
+        </p>
+      </div>
+      <div class="footer-nav">
+        <div class="footer-nav-list">
+          <div>
+            <ul>
+              <li>
+                <a href="" class="footer-nav-list-item-pc">トップページ</a>
+              </li>
+              <li><a href="">製品</a></li>
+              <li><a href="">共同開発</a></li>
+              <li><a href="">基盤基盤</a></li>
+              <li><a href="">4つの事業と展開</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li><a href="" class="footer-nav-list-item-pc">NEWS</a></li>
+              <li><a href="">採用</a></li>
+              <li><a href="">サステナビリティ</a></li>
+              <li><a href="">サイトマップ</a></li>
+              <li><a href="">個人情報保護方針</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-nav-contact">
+          <a href="">
+            <p><img src="./img/Icon-feather-mail.png" alt="" />お問い合わせ</p>
+          </a>
+        </div>
+        <p class="footer-information-copyright-sp">
+          <small>© JGC C&C. All rights reserved.</small>
+        </p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="./main.js"></script>
+    <script type="text/javascript" src="./js/business.js"></script>
+  </body>
+</html>

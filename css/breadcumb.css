@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+/* 
+font-family: 'DM Sans', sans-serif;
+font-family: 'M PLUS Code Latin', monospace;
+font-family: 'Noto Sans JP', sans-serif; 
+*/
+
+/* パンくずリスト */
+.breadcumb {
+    height: auto;
+    color: #fff;
+    margin-left: 10.67%;
+}
+
+.breadcumb-list {
+    display: flex;
+    font-size: 24px;
+    line-height: 30px;
+    gap: 31px;
+    margin-top: 70px;
+}
+
+.breadcumb-item {
+    display: flex;
+    gap: 31px;
+    align-items: flex-end;
+}
+
+.breadcumb-item a {
+    color: #fff;
+}
+
+.breadcumb-item img {
+    width: 9px;
+    height: auto;
+}
+
+
+/* ------------------------------- */
+/* レスポンシブル設定 */
+/* ------------------------------- */
+@media screen and (max-width: 599px) {
+
+    /* パンくずリスト */
+    .breadcumb {
+        height: auto;
+        margin-left: 8.33%;
+    }
+
+    .breadcumb-list {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        gap: 10px;
+        margin-top: 25px;
+    }
+
+    .breadcumb-item {
+        display: flex;
+        gap: 10px;
+        align-items: flex-end;
+    }
+
+    .breadcumb-item a {
+        color: #fff;
+    }
+}

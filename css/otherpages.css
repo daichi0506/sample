@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+/* 
+font-family: 'DM Sans', sans-serif;
+font-family: 'M PLUS Code Latin', monospace;
+font-family: 'Noto Sans JP', sans-serif; 
+*/
+
+/* ページタイトル */
+.page-title {
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 90px;
+    color: #fff;
+    margin-left: 10.67%;
+    margin-right: 24.06%
+}
+
+.other-part {
+    display: flex;
+    padding-bottom: 172px;
+    /* background: linear-gradient(180deg, #2F3033 0%, #635E5C 100%); */
+}
+
+/* 記事の中心となる白抜き部分 */
+.other-whitepart {
+    background-color: #fff;
+    position: relative;
+    z-index: 7;
+    flex-basis: 89.35%;
+    margin-top: 180px;
+}
+
+/* 白抜き部分をマージンどり */
+.other-article-section {
+    margin: 80px 16.27% 0 4.65%;
+}
+
+/* 商品詳細、4つのビジネス */
+/* 記事の中心となる白抜き部分 */
+.product-detail-part,
+.business-part {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 7;
+    flex-basis: 89.35%;
+    margin-top: 180px;
+}
+
+.product-detail-whitepart,
+.business-whitepart {
+    background-color: #fff;
+}
+
+.product-article-section {
+    margin: 80px 16.27% 0 4.65%;
+}
+
+.business-article-section {
+    display: flex;
+    flex-direction: column;
+    gap: 160px;
+
+    margin: 80px 16.27% 160px 4.65%;
+}
+
+/* 連絡部分 */
+.contact-graypart {
+    background-color: #EFEFEF;
+}
+
+/* 白抜き部分をマージンどり */
+.contact-article-section {
+    margin: 80px 16.27% 80px 4.65%;
+    padding: 80px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact-heading p {
+    color: #696969;
+}
+
+
+/* ------------------------------- */
+/* レスポンシブル設定 */
+/* ------------------------------- */
+@media screen and (max-width: 599px) {
+
+    /* ページタイトル */
+    .page-title {
+        font-size: 24px;
+        line-height: 38px;
+        height: auto;
+        margin: 0 8.33%;
+    }
+
+    .other-part {
+        padding: 0 2.5% 60px;
+    }
+
+    /* お知らせ-詳細ページ（個別ニュース） */
+    /* ニュース一覧 */
+    .other-list {
+        flex-basis: 100%;
+        padding: 16px 25px 0 14px;
+        margin-top: 78px;
+    }
+
+    /* 記事の中心となる白抜き部分 */
+    .other-whitepart {
+        flex-basis: 100%;
+        margin-top: 87px;
+    }
+
+    /* 白抜き部分をマージンどり */
+    .other-article-section {
+        margin: 20px 15px 0;
+    }
+
+    .product-article-section {
+        margin: 20px 15px 0;
+    }
+
+    .business-article-section {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+
+        margin: 20px 15px 97px;
+    }
+
+    .business-part {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        z-index: 7;
+        flex-basis: 100%;
+        margin-top: 78px;
+    }
+
+    /* 連絡部分 */
+    /* 白抜き部分をマージンどり */
+    .contact-article-section {
+        margin: 100px 2.5%;
+        padding: 69.35px 0 98px;
+        background-color: #fff;
+        text-align: center;
+    }
+}

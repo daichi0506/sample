@@ -1,0 +1,1167 @@
+@charset "utf-8";
+
+/* 
+font-family: 'DM Sans', sans-serif;
+font-family: 'M PLUS Code Latin', monospace;
+font-family: 'Noto Sans JP', sans-serif; 
+*/
+
+/* ----------------------------------- */
+/* 4つのビジネス */
+/* 環境・新エネルギー、ケミカル */
+/* 石油精製、ファイン、 */
+/* ----------------------------------- */
+
+/* div.background を利用 */
+/* 左側にパディングを入れる */
+div.background {
+    width: 10.67%;
+    position: relative;
+    z-index: 5;
+}
+
+/* h2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 54px 0;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 28px;
+    height: 57px;
+    background-color: #EFEFEF;
+}
+
+h2 img {
+    width: auto;
+    height: 4px;
+    margin-left: 17.25px;
+    margin-right: 29.43px;
+} */
+
+h3 {
+    font-family: DM Sans;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 48px;
+    /* text-align: center; */
+    color: #BC0000;
+}
+
+/* CONTACT */
+
+.contact-context {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 67px;
+
+    margin-top: 37px;
+    margin-bottom: 37px;
+}
+
+.contact-tel {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-bottom: 37px;
+}
+
+.contact-article-link {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+
+    width: 355px;
+    height: 84px;
+    border: 2px solid #333;
+    border-radius: 42px;
+    color: #333;
+}
+
+.contact-button p {
+    margin-left: 25px;
+}
+
+.contact-button img {
+    margin-right: 25px;
+}
+
+/* ----------------------------------- */
+/* ファイン */
+/* ----------------------------------- */
+
+/* ABOUT */
+
+/* ヘッダー */
+.business-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.business-heading.center {
+    align-items: center;
+}
+
+.business-heading.left {
+    align-items: flex-start;
+}
+
+.business-heading p {
+    font-weight: 500;
+    line-height: 18px;
+    color: #696969;
+}
+
+/* DLリンク */
+.business-download-link p {
+    display: inline;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #bc0000;
+}
+
+.business-download-link-icon {
+    width: 24px;
+    height: 26px;
+}
+
+/* セクション */
+
+/* about セクション */
+.business-about-column {
+    display: flex;
+    flex-direction: row;
+    margin-top: 36px;
+}
+
+/* 左側の画像コラム */
+.business-about-l-column {
+    flex-basis: 50%;
+}
+
+.business-about-l-column img {
+    width: 100%;
+    height: auto;
+}
+
+/* 右側のテキストコラム */
+.business-about-r-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    gap: 40px;
+}
+
+.business-about-r-column>* {
+    margin-left: 36px;
+}
+
+.business-about-r-column h4 {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.business-about-context {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.business-about-context-slogan {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 51px;
+}
+
+.business-about-context-explain {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+/* BENEFIT */
+.business-benefit-3columns {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    margin-top: 74px;
+}
+
+/* BENEFITのコラム */
+.business-benefit-column {
+    display: flex;
+    gap: 46px;
+}
+
+.business-benefit-column h4 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.business-benefit-column h4 span {
+    font-family: DM Sans;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #bc0000;
+    margin-left: 7px;
+}
+
+.business-benefit-image {
+    max-width: 530px;
+}
+
+.business-benefit-image img {
+    width: 100%;
+    height: auto;
+}
+
+.business-benefit-context {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.business-benefit-slogan {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 51px;
+}
+
+.business-benefit-explain {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.business-fine-benefit-table {
+    width: 100%;
+}
+
+.business-fine-benefit-table tr {
+    height: 60px;
+}
+
+.business-fine-benefit-table th {
+    vertical-align: middle;
+    background: #EFEFEF;
+}
+
+.business-fine-benefit-table th:not(:last-child) {
+    width: 20%;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.business-fine-benefit-table th:last-child {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #bc0000;
+}
+
+
+.business-fine-benefit-table td {
+    vertical-align: middle;
+    padding-left: 20px;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+
+}
+
+.business-fine-benefit-table,
+.business-fine-benefit-table tr {
+    border: 2px solid #fff;
+}
+
+/* PRODUCT */
+
+.business-product-section {
+    display: flex;
+    flex-direction: row;
+
+    gap: 6.61%;
+}
+
+.business-product-context {
+    width: 100%;
+}
+
+.business-product-explain {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.business-product-table {
+    margin-top: 52px;
+}
+
+.business-product-table .table-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.thead .table-list {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    margin-bottom: 15px;
+}
+
+.button-space {
+    width: 30%;
+    color: #333;
+}
+
+.button-space a div:hover , .business-development-button:hover , .business-introduction-button:hover , .contact-button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.button-space a {
+    display: block;
+}
+
+.button-space a div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 252px;
+    max-width: 100%;
+    height: 69px;
+    border-radius: 68px;
+    border: 2px solid #333;
+    gap: 10px
+}
+
+.button-space a p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-left: 25px;
+}
+
+.button-space a img {
+    width: 25px;
+    height: auto;
+
+    margin-right: 25px;
+}
+
+.thead,
+.trow {
+    border-bottom: 1px solid #E4E4E4;
+
+}
+
+.trow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: 160px;
+}
+
+.list_title {
+    width: calc(100% / 3);
+    text-align: center;
+}
+
+.table-list div {
+    width: calc(100% / 3);
+}
+
+.trow .table-list div {
+    flex-basis: 33%;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+
+.trow .table-function li::before {
+    content: '●';
+    color: #538FC7;
+}
+
+.trow .table-purpose li::before {
+    content: '●';
+    color: #E49A9A;
+}
+
+
+/* DEVELOPMENT */
+
+.business-development-section {
+    display: flex;
+}
+
+.business-development-image {
+    max-width: 530px;
+}
+
+.business-development-image img {
+    width: 100%;
+    height: auto;
+}
+
+.business-development-context {
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 44px;
+    gap: 62px;
+}
+
+.business-development-explain {
+    display: flex;
+    flex-direction: column;
+
+    gap: 34px;
+}
+
+.business-development-explain p {
+    line-height: 29px;
+}
+
+.business-development-explain a {
+    align-self: flex-end;
+}
+
+.business-development-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: flex-end;
+
+    width: 270px;
+    height: 70px;
+    border-radius: 35px;
+    border: 2px solid #333;
+}
+
+.business-development-button p {
+    font-weight: 500;
+    line-height: 26px;
+    margin-left: 25px;
+}
+
+.business-development-button img {
+    width: 25px;
+    height: auto;
+
+    margin-right: 25px;
+}
+
+/* Q&A */
+
+.business-qa-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    margin-top: 35px;
+}
+
+.business-qa-menu-q {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 74px;
+    background: #EFEFEF;
+    width: calc(100% - 51px);
+    padding: 0 24px 0 27px;
+}
+
+.business-qa-menu-q p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.business-qa-menu-q p span {
+    color: #BC0000;
+    margin-right: 11px;
+}
+
+.business-qa-menu-q button {
+    border: none;
+}
+
+.business-qa-menu-q img {
+    width: 29px;
+    height: auto;
+}
+
+/* Q&A答えオープン状態 */
+.business-qa-menu-q button.open img.close {
+    display: none;
+}
+
+.business-qa-menu-q button.open img.open {
+    display: inline;
+}
+
+.business-qa-menu-a:not(closed) {
+    display: flex;
+}
+
+/* Q&A答えクローズ状態 */
+.business-qa-menu-q button:not(.open) img.close {
+    display: inline;
+}
+
+.business-qa-menu-q button:not(.open) img.open {
+    display: none;
+}
+
+.business-qa-menu-a.closed {
+    display: none;
+}
+
+@keyframes flow {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.business-qa-menu-a {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 26px;
+    line-height: 160%;
+    width: calc(100% - 38px);
+    padding: 26px 14px 22px 24px;
+    animation: flow 1s forwards;
+}
+
+/* INTRODUCTION */
+.business-introduction-3columns {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    width: 100%;
+    margin-top: 37px;
+}
+
+.business-introduction-item {
+    display: flex;
+    flex-direction: column;
+    gap: 37.5px;
+    flex-basis: calc((100% - 35px * 2) / 3);
+}
+
+.business-introduction-item img {
+    width: 100%;
+    height: auto;
+}
+
+.business-introduction-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: flex-end;
+    width: 100%;
+    height: 70px;
+    border-radius: 35px;
+    border: 2px solid #333;
+}
+
+.business-introduction-button p {
+    font-weight: 500;
+    line-height: 26px;
+    margin-left: 25px;
+}
+
+.business-introduction-button img {
+    width: 25px;
+    height: auto;
+
+    margin-right: 25px;
+}
+
+@media screen and (max-width: 599px) {
+
+    /* ----------------------------------- */
+    /* 製品群一覧 */
+    /* ----------------------------------- */
+
+    h3 {
+        font-family: DM Sans;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 58px;
+
+        /* text-align: center; */
+        color: #BC0000;
+    }
+
+    /* CONTACT */
+
+    .contact-context {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 34px;
+        padding: 0 10px;
+        margin-top: 51.76px;
+        margin-bottom: 30px;
+    }
+
+    .contact-tel {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+
+        margin-bottom: 44px;
+    }
+
+    .contact-article-link {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .contact-button {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        align-self: center;
+
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0em;
+
+        width: 92.28%;
+        height: 70px;
+        border: 2px solid #333;
+        border-radius: 35px;
+
+        color: #333;
+    }
+
+    .contact-button p {
+        margin-left: 45px;
+    }
+
+    .contact-button img {
+        margin-right: 25px;
+    }
+
+
+    /* ABOUT */
+
+    /* ヘッダー */
+    .business-heading {
+        gap: 12px;
+    }
+
+    .business-heading.left {
+        align-items: center;
+    }
+
+    .business-heading p {
+        font-weight: 500;
+        line-height: 160%;
+        color: #696969;
+    }
+
+    /* DLリンク */
+    .business-download-link p {
+        display: inline;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        color: #bc0000;
+    }
+
+    .business-download-link-icon {
+        width: 20px;
+        height: 21px;
+    }
+
+    /* セクション */
+
+
+    /* about セクション */
+    .business-about-column {
+        display: flex;
+        flex-direction: column;
+
+        gap: 29px;
+        margin-top: 14px;
+    }
+
+    /* 左側の画像コラム */
+    .business-about-l-column {
+        flex-basis: 100%;
+    }
+
+    /* 右側のテキストコラム */
+    .business-about-r-column {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        gap: 30px;
+    }
+
+    .business-about-r-column>* {
+        margin-left: 0;
+    }
+
+    .business-about-r-column h4 {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 48px;
+    }
+
+    .business-about-context {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .business-about-context-slogan {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 38px;
+    }
+
+    .business-about-context-explain {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    /* BENEFIT */
+    .business-benefit-3columns {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 27.52px;
+    }
+
+    /* BENEFITのコラム */
+    .business-benefit-column {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .business-benefit-column h4 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+
+    .business-benefit-column h4 span {
+        font-family: DM Sans;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 36px;
+        color: #bc0000;
+        margin-left: 7px;
+    }
+
+    .business-benefit-image {
+        max-width: 530px;
+    }
+
+    .business-benefit-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .business-benefit-context {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .business-benefit-slogan {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 38px;
+    }
+
+    .business-benefit-explain {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    .business-fine-benefit-table {
+        width: 100%;
+    }
+
+    .business-fine-benefit-table tr {
+        height: 60px;
+    }
+
+    .business-fine-benefit-table th {
+        vertical-align: middle;
+        background: #EFEFEF;
+    }
+
+    .business-fine-benefit-table th:not(:last-child) {
+        width: 20%;
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px;
+    }
+
+    .business-fine-benefit-table th:last-child {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+
+        color: #bc0000;
+
+    }
+
+
+    .business-fine-benefit-table td {
+        vertical-align: middle;
+        padding-left: 10px;
+
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+
+    /* PRODUCT */
+
+    .business-product-section {
+        display: flex;
+        flex-direction: column;
+
+        gap: 29px;
+    }
+
+    .business-product-explain {
+        display: none;
+    }
+
+    .business-product-table {
+        margin-top: 52px;
+    }
+
+    .business-product-table .table-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .thead .table-list {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+        text-align: center;
+        height: 71px;
+    }
+
+    .button-space {
+        width: 100%;
+    }
+
+    .button-space:first-child {
+        display: none;
+    }
+
+    .button-space a {
+        display: block;
+    }
+
+    .button-space a div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 100%;
+        height: 69px;
+        border-radius: 68px;
+        border: 2px solid #333;
+        gap: 10px
+    }
+
+    .button-space a p {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+
+        margin-left: 45px;
+    }
+
+    .button-space a img {
+        width: 20px;
+        height: auto;
+
+        margin-right: 25px;
+    }
+
+    .thead,
+    .trow {
+        border-bottom: 1px solid #E4E4E4;
+
+    }
+
+    .thead {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 23px;
+        padding: 32px 0;
+        height: auto;
+    }
+
+    .trow .table-list div {
+        flex-basis: 33%;
+
+        font-weight: 500;
+        line-height: 18px;
+    }
+
+    /* DEVELOPMENT */
+
+    .business-development-section {
+        display: flex;
+        flex-direction: column;
+        gap: 86px;
+    }
+
+    .business-development-image {
+        max-width: 530px;
+    }
+
+    .business-development-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .business-development-context {
+        display: flex;
+        flex-direction: column;
+
+        padding-left: 0px;
+        gap: 37px;
+    }
+
+    .business-development-explain {
+        display: flex;
+        flex-direction: column;
+
+        gap: 37px;
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    .business-development-explain p {
+        line-height: 29px;
+    }
+
+    .business-development-explain a {
+        align-self: flex-end;
+        width: 100%;
+    }
+
+    .business-development-button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        align-self: flex-end;
+
+        width: 100%;
+        height: 70px;
+        border-radius: 35px;
+        border: 2px solid #333;
+    }
+
+    .business-development-button p {
+        font-weight: 500;
+        line-height: 26px;
+        color: #272727;
+
+        margin-left: 45px;
+    }
+
+    .business-development-button img {
+        width: 20px;
+        height: auto;
+
+        margin-right: 25px;
+    }
+
+    /* Q&A */
+
+    .business-qa-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+
+        margin-top: 35px;
+    }
+
+    .business-qa-menu-q {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 100%;
+        height: 74px;
+        background: #EFEFEF;
+        width: calc(100% - 51px);
+        padding: 15px 24px 15px 27px;
+    }
+
+    .business-qa-menu-q p {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+
+    .business-qa-menu-q p span {
+        color: #BC0000;
+        margin-right: 11px;
+    }
+
+    .business-qa-menu-q button {
+        border: none;
+    }
+
+    .business-qa-menu-q img {
+        width: 29px;
+        height: auto;
+    }
+
+    /* Q&A答えオープン状態 */
+    .business-qa-menu-q button.open img.close {
+        display: none;
+    }
+
+    .business-qa-menu-q button.open img.open {
+        display: inline;
+    }
+
+    .business-qa-menu-a:not(closed) {
+        display: flex;
+    }
+
+    /* Q&A答えクローズ状態 */
+    .business-qa-menu-q button:not(.open) img.close {
+        display: inline;
+    }
+
+    .business-qa-menu-q button:not(.open) img.open {
+        display: none;
+    }
+
+    .business-qa-menu-a.closed {
+        display: none;
+    }
+
+    .business-qa-menu-a {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 26px;
+        width: calc(100% - 38px);
+        padding: 20px 14px 22px 30px;
+    }
+
+    /* INTRODUCTION */
+    .business-introduction-3columns {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        width: 100%;
+        margin-top: 44px;
+    }
+
+    .business-introduction-item {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        flex-basis: 100%;
+    }
+
+    .business-introduction-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .business-introduction-button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        align-self: flex-end;
+
+        width: 100%;
+        height: 70px;
+        border-radius: 35px;
+        border: 2px solid #333;
+    }
+
+    .business-introduction-button p {
+        font-weight: 500;
+        line-height: 26px;
+        color: #272727;
+
+        margin-left: 45px;
+    }
+
+    .business-introduction-button img {
+        width: 25px;
+        height: auto;
+
+        margin-right: 25px;
+    }
+
+}

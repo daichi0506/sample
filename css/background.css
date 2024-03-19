@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+/* 
+font-family: 'DM Sans', sans-serif;
+font-family: 'M PLUS Code Latin', monospace;
+font-family: 'Noto Sans JP', sans-serif; 
+*/
+
+body.other {
+    /* display: flex;
+    padding-bottom: 172px; */
+    position: relative;
+    background: linear-gradient(180deg, #2F3033 0%, #635E5C 100%);
+}
+
+body.other img.other-red-curve {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 388px;
+    left: 0;
+    z-index: 8;
+}
+
+/* body.product-sct {
+    display: flex;
+    padding-bottom: 172px;
+    position: relative;
+    background-image: url("./../img/product/image-product-sctseries.png"), #00000066, linear-gradient(180deg, #2F3033 0%, #635E5C 100%);
+    background-size: 100%, 100%, auto auto;
+    background-position: left top, left top, left bottom;
+    background-repeat: no-repeat, no-repeat;
+}
+
+body.product-sct img.other-red-curve {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 388px;
+    left: 0;
+} */
+
+div.page-title {
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 56px;
+    color: #fff;
+    height: 300px;
+    margin-left: 200px;
+}
+
+div.other-part {
+    display: flex;
+    padding-bottom: 172px;
+    /* background: linear-gradient(180deg, #2F3033 0%, #635E5C 100%); */
+}
+
+/* 左側にパディングを入れる */
+div.background {
+    width: 10.67%;
+    position: relative;
+    z-index: 5;
+}
+
+@media screen and (max-width: 599px) {
+
+    /* 左側にパディングを入れる */
+    div.background {
+        display: none;
+    }
+
+    body.other img.other-red-curve {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 207px;
+        left: 0;
+    }
+
+}
